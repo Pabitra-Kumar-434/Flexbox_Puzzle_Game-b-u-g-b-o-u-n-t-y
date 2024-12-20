@@ -1,2 +1,2 @@
-# Flexbox_Puzzle_Game-b-u-g-b-o-u-n-t-y
-🎮Perfect for beginners and developers looking to sharpen their CSS skills in an enjoyable way. 🚀
+# flex-box-game
+The Flexbox Game is an interactive and fun way to learn CSS Flexbox, a layout module used for aligning and distributing space within containers. Through playful challenges, players use Flexbox properties like justify-content, align-items, and flex-direction to solve puzzles and position elements correctly. 

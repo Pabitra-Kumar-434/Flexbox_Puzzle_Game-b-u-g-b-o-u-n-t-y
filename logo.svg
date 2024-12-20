@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 100 100" fill="none" class="nav-svg">
+                        <!-- Background -->
+                        <rect width="100" height="100" fill="#151515" class="nav-svg"/>
+                        
+                        <!-- Box Shape -->
+                        <path d="M50 10L20 30V70L50 90L80 70V30L50 10Z" stroke="white" stroke-width="5" fill="white" class="nav-svg"/>
+                        <!-- Divider Line -->
+                        <path d="M50 90V50M20 30L50 50L80 30" stroke="black" stroke-width="5" class="nav-svg"/>
+                    </svg>
