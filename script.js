@@ -5,7 +5,7 @@ const levels = [
         solution:"justify-content: center;" 
     },
     {level:"1",
-        instructions:"Welcome to Flexbox Puzzle, a game where you help box by writing CSS code! move this box to the right place using the justify-content property, which prorperty move      the box to centre : <code>start, center, end </code> ",
+        instructions:"-----",
         solution:"justify-content: center;" 
     }
 ]
