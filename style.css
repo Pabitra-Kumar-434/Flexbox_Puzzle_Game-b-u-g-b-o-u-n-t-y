@@ -68,8 +68,10 @@ nav {
     flex-direction: column;
 }
 .display-0{
-   max-width: 2rem;
-   height: 40rem;
+   max-width: 500px;
+   height: 500px;
+   display: flex;
+   /* justify-content: center; */
 }
 .display{
     margin: 10rem 1rem 0 1rem ;
@@ -81,7 +83,6 @@ nav {
     background-color: #00d5ff;
     margin: 8px;
     transition: all 0.5s ease;
-
 }
 .code{
     max-width: 30rem;
