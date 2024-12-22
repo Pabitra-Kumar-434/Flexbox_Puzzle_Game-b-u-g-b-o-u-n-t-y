@@ -1,0 +1,49 @@
+levels = [
+{level:"1",
+ instructions:"Welcome to Flexbox Puzzle, a game where you help box by writing CSS code! move this box to the right place using the justify-content property, which prorperty move      the box to centre : <code>start, center, end </code> ",
+ solution:"justify-content: center;" 
+},
+{level:"1",
+ instructions:"Welcome to Flexbox Puzzle, a game where you help box by writing CSS code! move this box to the right place using the justify-content property, which prorperty move      the box to centre : <code>start, center, end </code> ",
+ solution:"justify-content: center;" 
+},
+]
+
+### Flexbox Game Level Instructions (2-3 lines per level):
+
+1. **Level 1: Align the Box**  
+Use the `justify-content` property to move the box horizontally to the center of the container. Try different alignment values to see the effect.
+
+2. **Level 2: Row Alignment**  
+Change the `flex-direction` property to arrange the boxes in a row instead of the default column layout. Experiment with horizontal layouts.
+
+3. **Level 3: Space Distribution**  
+Apply `justify-content` to distribute the space between the boxes evenly. Choose values like `space-between`, `space-around`, or `space-evenly`.
+
+4. **Level 4: Align to Start**  
+Set `align-items` to align all boxes to the top (start) of the container. Learn how vertical alignment works in Flexbox.
+
+5. **Level 5: Reverse Order**  
+Use `flex-direction: row-reverse` or `column-reverse` to change the visual order of the boxes in the container.
+
+6. **Level 6: Wrap Items**  
+Enable `flex-wrap` to allow boxes to wrap to the next line when they don’t fit within the container's width.
+
+7. **Level 7: Vertical Centering**  
+Combine `align-items` and `justify-content` to center the boxes vertically and horizontally within the container.
+
+8. **Level 8: Custom Spacing**  
+Use `justify-content` with values like `space-around` or `space-between` to create specific spacing patterns between boxes.
+
+9. **Level 9: Adjust Sizes**  
+Apply `flex-grow`, `flex-shrink`, and `flex-basis` to control how boxes resize relative to each other inside the container.
+
+10. **Level 10: Complex Alignment**  
+Use multiple Flexbox properties (`align-items`, `justify-content`, `flex-wrap`) to create an advanced layout as specified in the challenge.
+
+These concise instructions provide guidance for players to understand and apply Flexbox properties effectively.
+
+
+
+
+serial no -- 2...5...1....3.....4.....7......6.....10
