@@ -95,7 +95,7 @@ function level_check(){
                 alert('Congratulations! You completed all levels!');
                 submitBtn.disabled = true;
             }
-        }, 1000);
+        },1000);
     } else {
         alert('Incorrect! Try again.');
     }
