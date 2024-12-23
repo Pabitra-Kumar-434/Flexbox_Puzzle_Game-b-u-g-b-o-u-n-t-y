@@ -10,11 +10,13 @@ body {
     margin: 2rem;
     background-color: #141414;
     color: white;
-    overflow: hidden;
+    /* overflow: hidden; */
     font-family: "Open Sans", serif;
     padding: 0;
 }
-
+code{
+    color: #00d5ff;
+}
 /* Navbar */
 .navsvg img {
     width:  100px;
@@ -58,7 +60,8 @@ nav {
 .next{
     display: flex;
     justify-content: flex-end;
-    margin-top: 4rem;
+    margin-top: 7rem;
+    z-index: 5;
 }
 .game{
     display: flex;
@@ -120,7 +123,7 @@ nav {
 }
 
 .code-code1 {
-    color: wheat;
+    color: rgba(245, 222, 179, 0.32);
 }
 
 .coding {
@@ -132,7 +135,7 @@ nav {
 .lines ul {
     list-style: none;
     padding-left: 0;
-    background-color: whitesmoke;
+    background-color: rgba(245, 245, 245, 0.21);
     color: black;
     margin-right: 1rem;
 }
@@ -151,6 +154,7 @@ nav {
     padding: 0.5rem 1rem;
     border: none;
     cursor: pointer;
+    z-index: 7;
 }
 
 .next button:hover {
