@@ -72,9 +72,10 @@ nav {
     flex-direction: column;
 }
 .display-0{
-   max-width: 500px;
+   max-width: auto;
    height: 500px;
    display: flex;
+
    /* justify-content: center; */
 }
 .display{
@@ -87,6 +88,9 @@ nav {
     background-color: #00d5ff;
     margin: 8px;
     transition: all 0.5s ease;
+    color: blue;
+    font-size: xx-large;
+    text-align: center;
 }
 .code{
     max-width: 30rem;
