@@ -5,7 +5,7 @@ const $Game_levels = [
     },
     {level:"2: Align the Box",
      instructions:" To align the box horizontally within the container, use the <code>justify-content</code> property. Try <code>justify-content: center</code> to move the box to the middle. Experiment with other values like <code>flex-start</code> to align it to the left or <code>flex-end</code> to align it to the right. Observe how this property controls horizontal placement.",
-     solution:"justify-content: center;" 
+     solution:"justify-content:center;" 
     },
     {
      level:"3: Reverse order",
@@ -48,10 +48,10 @@ function interface_create(level_index){
     let x = $Game_levels[level_index]
     interface.innerHTML = `<div class="game">
         <div class="display"> 
-            <div class="display-0" id="display-0">
-                <div class="box1 element"></div>
-                <div class="box2 element"></div>
-                <div class="box3 element"></div>
+            <div class="display-0" id="display-0" style="${x.solution}">
+                <div class="box1 element">1</div>
+                <div class="box2 element">2</div>
+                <div class="box3 element">3</div>
             </div>
         </div>
         <!-- Center Part -->
@@ -88,24 +88,13 @@ function interface_change(style_input){
     box_place.style.cssText += style_input    
 }
 
-function animation() {
-    const boxClasses = ['.box1', '.box2', '.box3'];
-    boxClasses.forEach(boxClass => {
-        const boxes = document.querySelectorAll(boxClass);
-        boxes.forEach((box, index) => {
-            box.style.transform = `translateX(${index * 100}px)`;
-            box.style.opacity = '0.8';
-        });
-    });
-}
-
 function level_check(){
     const userInput = document.getElementById('textarea').value.trim();
     const solution = $Game_levels[currentLevel].solution;
 
     if (userInput === solution) {
         interface_change(userInput); 
-        animation(); 
+        // animation(); 
         currentLevel++
     
         if (currentLevel < $Game_levels.length) {
