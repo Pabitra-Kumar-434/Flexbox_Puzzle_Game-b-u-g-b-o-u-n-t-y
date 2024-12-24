@@ -88,6 +88,9 @@ function interface_change(style_input){
     box_place.style.cssText += style_input    
 }
 
+const popup_close = document.getElementById("close-popup-btn")
+const show = document.getElementById("popup")
+
 function level_check(){
     const userInput = document.getElementById('textarea').value.trim();
     const solution = $Game_levels[currentLevel].solution;
@@ -96,7 +99,7 @@ function level_check(){
         interface_change(userInput); 
         // animation(); 
         currentLevel++
-    
+        
         if (currentLevel < $Game_levels.length) {
             interface_create(currentLevel); 
         } else {
@@ -111,3 +114,5 @@ function level_check(){
 
 interface_create(currentLevel)
 nextBtn.addEventListener('click', level_check);
+nextBtn.addEventListener("click",() => show.classList.add("show-popup"))
+popup_close.addEventListener("click",() => show.classList.remove("show-popup"))
