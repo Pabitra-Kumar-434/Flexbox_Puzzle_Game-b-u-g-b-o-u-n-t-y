@@ -72,7 +72,7 @@ function interface_create(level_index){
                         <li>7</li>                        
                     </ul>
         <pre class="coding-pre">#pond {
-display: flex;
+      display: flex;
         <textarea name="code" id="textarea" cols="30" rows="2"></textarea>
       }
                 </pre>
