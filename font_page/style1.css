@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'League Spartan', sans-serif;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+nav > .logo{
+    display: flex;
+    justify-content: flex-start;
+}
+.logo img {
+    background-color: black;
+}
+
+.nav-links {
+    display: flex;
+    gap: 2.5rem;
+    padding: 3rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    transition: color 0.3s ease;
+    font-weight: bolder;
+}
+
+.nav-links a:hover {
+    color: #00bcd4;
+}
+
+.body1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 3rem 0rem 5rem 10rem;
+}
+.co{
+    width: 9rem;
+}
+.co0{
+    padding: 5rem 0rem 0rem 2rem;
+    font-size: 6.125rem;
+    width: 30rem;
+}
+.co1{
+    font-size: 2rem;
+    width: 30rem;
+    padding: 2rem 0rem 2rem 2rem;
+    color: grey;
+    font-weight: bold;
+}
+
+.co button{
+    background-color: transparent;
+    border-radius: 50px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: 2px solid white;
+    color: aliceblue;
+    width: 14rem;
+    height: 4.5rem;
+    transition: .4s linear;
+    margin: 2rem 0rem 0rem 2rem;
+}
+
+.co button:hover{
+    background-color: #00bcd4;
+    color: black;
+    border: 2px solid #00bcd4;
+}
+.img{
+    margin: -2rem 15rem 0rem 33rem;
+
+}
+.img img{
+    width: 25rem;
+    height: 35rem;
+}
+.body2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 3rem 0rem 5rem 10rem;
+}
+
+.img2{
+    margin-top: -5rem;
+}
+.img2 img{
+    width: 20rem;
+    height: 30rem;
+    
+}
+.co-0{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 30rem;
+    gap: 2rem;
+    margin-top: -8rem;
+}
+.co2{
+    font-size: 3.5rem;
+}
+.co3{
+    font-size: 1.5rem;
+}
+.co-0 button{
+    background-color: transparent;
+    border-radius: 50px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: 2px solid white;
+    color: aliceblue;
+    width: 14rem;
+    height: 4.5rem;
+    transition: .4s linear;
+    margin-left: 2rem;
+}
+
+.co-0 button:hover{
+    background-color: #00bcd4;
+    color: black;
+    border: 2px solid #00bcd4;
+}
+
+.upper-footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.upper-footer-content1{
+    font-size: 2rem;
+    width: 30rem;
+}
+.upper-footer-content1 div{
+    padding-top: 2rem;
+}
+.upper-footer-content2{
+    font-size: 1.3rem;
+    width: 30rem;
+}
+.upper-footer-content2 div{
+    padding-top: 2rem;
+}
+.upper-footer-content1-socialmedia-links ul{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-left: -3rem;
+}
+
+#social{
+    padding-left: 1.5rem;
+}
