@@ -45,7 +45,7 @@ nav > .logo{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 3rem 0rem 5rem 10rem;
+    padding-bottom: 7rem ;
 }
 .co{
     width: 9rem;
@@ -54,6 +54,9 @@ nav > .logo{
     padding: 5rem 0rem 0rem 2rem;
     font-size: 6.125rem;
     width: 30rem;
+}
+.co .co0 span{
+    color: aqua;
 }
 .co1{
     font-size: 2rem;
@@ -80,6 +83,7 @@ nav > .logo{
     background-color: #00bcd4;
     color: black;
     border: 2px solid #00bcd4;
+    cursor: pointer
 }
 .img{
     margin: -2rem 15rem 0rem 33rem;
@@ -135,6 +139,7 @@ nav > .logo{
     background-color: #00bcd4;
     color: black;
     border: 2px solid #00bcd4;
+    cursor: pointer
 }
 
 .upper-footer{
@@ -144,23 +149,168 @@ nav > .logo{
 .upper-footer-content1{
     font-size: 2rem;
     width: 30rem;
+    text-align: center;
 }
 .upper-footer-content1 div{
     padding-top: 2rem;
 }
-.upper-footer-content2{
-    font-size: 1.3rem;
-    width: 30rem;
-}
-.upper-footer-content2 div{
-    padding-top: 2rem;
-}
 .upper-footer-content1-socialmedia-links ul{
     text-align: center;
-    font-size: 2.5rem;
-    margin-left: -3rem;
+    font-size: 2rem;
+    padding: 1.5rem 0rem;
+}
+.upper-footer-content1-socialmedia-links ul a{
+    color: white;
+}
+#social{
+    padding: 0rem 1rem;
 }
 
-#social{
-    padding-left: 1.5rem;
+.upper-footer-content2{
+    font-size: 1.2rem;
+    width: 30rem;
+}
+.upper-footer-upper-content{
+    padding: 2rem 0rem .5rem 0rem;
+    text-align: center;
+}
+.upper-footer-lower-content{
+    padding: 2rem 0rem .5rem 0rem;
+    text-align: center;
+}
+.upper-footer-upper-content div,.upper-footer-lower-content div{
+    padding-bottom: .9rem;
+}
+.upper-footer-content3{
+    text-align: center;
+    padding-top: 5rem;
+}
+.upper-footer-content3 a{
+    text-decoration: none;
+    color: white;
+}
+footer2{
+    display: flex;
+    justify-content: center;
+    height: 10rem;
+    font-size: 1rem;
+    text-align: center;
+    align-items: center;
+}
+
+.nav-links{
+    display: flex;
+    gap: 2rem;
+}
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    font-size: 2.3rem;
+    margin-right: 3rem;
+    font-weight: bold;
+}
+nav {
+    align-items: center;
+}
+#toggler,label {
+    display: none;
+}
+
+/* responsive designs */
+@media (max-width: 768px) {
+    .body1, .body2{
+        display: flex;
+        flex-direction: column;
+        margin-left: -15rem;
+        padding-bottom: -2rem;
+    }
+
+    .nav-links a{
+        width: max-content;
+    }
+    .co0 , .co1 , .body1-button {
+        width: max-content;
+        margin-left: -10rem;
+    }
+    .img img{
+        padding-top: 5rem;
+        margin-left: -7rem;
+    }
+    .co-0{
+        padding: 10rem 0rem 0rem 4rem;
+    }
+}
+
+@media (max-width: 480px) {
+    label {
+        display: inline-block;
+        cursor: pointer;
+        position: fixed;
+        top: 2rem;
+        right: .8rem;
+        z-index: 10;
+        width: 2.5rem;
+        height: 2rem;
+    }
+
+    label i {
+        font-size: 2.5rem;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: fixed;
+        top: 4rem;
+        right: 0;
+        background-color: #141414;
+        width: 200px;
+        gap: 1rem;
+        padding: 1rem;
+    }
+    #toggler:checked ~ .nav-links {
+        display: flex;
+    }
+
+    .nav-links a {
+        text-align: center;
+        font-size: 1.6rem;
+        padding: 1rem 2.2rem 0rem 2.2rem;
+    }
+    .co .co0{
+        font-size: 3rem ;
+        margin-left: 4rem;
+        max-width: 20rem;
+    }
+
+    .co .co1{
+        font-size: 1.5rem;
+        margin-left: .1rem;
+    }
+    .co button{
+        margin-left: 4.5rem;
+    }
+    .img img {
+        margin-left: -2rem;
+    }
+    .img2 img{
+        margin-left: 5rem;
+    }
+    .co2{
+        font-size: 3rem;
+        margin-left: 4rem;
+        max-width: 20rem;
+    }
+    .co3{
+        font-size: 1.2rem;
+        margin-left: 4rem;
+        max-width: 20rem;
+    }
+    .co-0 button{
+        margin-left: 4rem;
+    }
+    .upper-footer{
+        display: flex;
+        flex-direction: column;
+    }
 }
